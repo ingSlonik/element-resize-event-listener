@@ -1,0 +1,31 @@
+{
+    "name": "element-resize-event-listener",
+    "version": "0.1.0",
+    "description": "Low performance resize event listener to HTML element.",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "babel src --out-dir lib",
+        "prepublish": "npm run build"
+    },
+    "keywords": [
+        "resize",
+        "HTML element",
+        "easy&lite",
+        "low performance"
+    ],
+    "author": "Filip Paulů <ing.fenix@seznam.cz>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ingSlonik/element-resize-event-listener.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ingSlonik/element-resize-event-listener/issues"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.2.3",
+        "@babel/preset-flow": "^7.0.0"
+    }
+}

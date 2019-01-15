@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Element Resize Event Listener</title>
+	</head>
+	<body>
+        <div id="element" style="margin: 32px; padding: 32px; border: 1px solid black;">
+            Element
+        </div>
+        
+        <script>
+            var exports = {};    
+        </script>
+        <script src="../lib/index.js" charset="utf-8"></script>
+        <script>
+            var element = document.getElementById("element");
+
+            function resizeHandler(element, size) {
+                console.log(size);
+            }
+
+            exports.addResizeEventListener(element, resizeHandler);
+        </script>
+	</body>
+</html>

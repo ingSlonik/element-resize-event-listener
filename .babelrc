@@ -1,0 +1,12 @@
+{
+    "env": {
+        "production": {
+            "presets": [ ["@babel/env", { "targets": { "browsers": ["last 2 versions", "ie >= 11"] } } ], "@babel/preset-flow" ],
+            "plugins": []
+        },
+        "development": {
+            "presets": [ ["@babel/env", { "targets": { "browsers": ["last 2 versions", "ie >= 11"] } } ], "@babel/preset-flow" ],
+            "plugins": []
+        }
+    }
+}
