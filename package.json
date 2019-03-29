@@ -1,8 +1,9 @@
 {
     "name": "element-resize-event-listener",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Low performance resize event listener to HTML element.",
     "main": "lib/index.js",
+    "types": "src/index.d.ts",
     "scripts": {
         "build": "babel src --out-dir lib",
         "prepublish": "npm run build"
@@ -11,7 +12,8 @@
         "resize",
         "HTML element",
         "easy&lite",
-        "low performance"
+        "low performance",
+        "TypeScript"
     ],
     "author": "Filip Paulů <ing.fenix@seznam.cz>",
     "repository": {
