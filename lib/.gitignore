@@ -1,0 +1,4 @@
+*
+!.gitignore
+!.npmingore
+!index.js.flow
