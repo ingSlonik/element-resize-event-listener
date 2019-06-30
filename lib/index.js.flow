@@ -1,0 +1,15 @@
+// @flow
+
+type Size = { width: number, height: number };
+
+type Handler = (element: HTMLDivElement, size: Size) => void;
+
+type Interval = number | "animationFrame";
+
+export function addResizeEventListener(element: HTMLDivElement, handler: Handler, sendActualSize?: boolean) {}
+
+export function removeResizeEventListener(element: HTMLDivElement, handler: Handler) {}
+
+export function removeAllResizeEventListeners(element: HTMLDivElement) {}
+
+export function setCheckInterval(customInterval: Interval) {}
