@@ -9,7 +9,7 @@ With this motivation was created this package.
 It is not working with absolutelly right programing approach. 
 It works really easy and right for users and it is low performance.
 
-Include types for TypeScript.
+Include types for Flow and TypeScript.
 
 ## API
 

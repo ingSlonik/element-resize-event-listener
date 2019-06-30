@@ -60,10 +60,12 @@ function getSize(element: HTMLElement): Size {
 
 // Exported Listener functions
 
-export function addResizeEventListener(element: HTMLElement, handler: Handler) {
+export function addResizeEventListener(element: HTMLElement, handler: Handler, sendActualSize: boolean = false) {
+    const size = sendActualSize ? { width: 0, height: 0 } : getSize(element);
+
     listeners.push({
         element,
-        size: getSize(element),
+        size,
         handler,
     });
 
