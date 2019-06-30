@@ -1,6 +1,6 @@
 {
     "name": "element-resize-event-listener",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Low performance resize event listener to HTML element.",
     "main": "lib/index.js",
     "types": "src/index.d.ts",
